@@ -1,0 +1,99 @@
+body{
+    background-color: #1C1B29;
+    color: white;
+}
+.header{
+    width: 100%;
+    text-align: center;
+
+
+}
+.header h4{
+    color: whitesmoke;
+}
+.header h1{
+    font-size: 60px;
+    margin-top: -20px;
+    color: white;
+
+}
+.header img{
+    width: 223px;
+    height: 223px;
+    border-radius: 50%;
+
+}
+.socialicon{
+    margin-top: 2%;
+}
+.icon{
+    font-size: 24px;
+    margin-right: 15px;
+}
+.serviceicon img{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+.services {
+    width: 30%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+.servicetittle a{
+   text-decoration: none;
+   color: white;
+}
+.biography{
+    width: 30%;
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+}
+.biography h5 {
+    font-size: 19px;
+}
+.review{
+    width: 30%;
+    margin: auto;
+    margin-top: 4%;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 15px;
+    padding-top: -10px;
+}
+.review button {
+    width: 100%;
+    height: 75px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.create-button {
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 16%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0px 10px;
+}
+.create-button span a {
+    text-decoration: none;
+    color: White;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.icon2{
+    font-size: 13px;
+}
